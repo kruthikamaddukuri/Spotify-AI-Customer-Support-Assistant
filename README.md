@@ -508,3 +508,20 @@ Specialization: Artificial Intelligence and Machine Learning
 ---
 
 ⭐ If you found this project interesting, feel free to explore the repository!
+
+## What Is Misleading About My Headline Number?
+
+The headline result of **95.52% test accuracy** can make the system appear more reliable than it actually is.
+
+First, accuracy does not show which mistakes the model makes. In the golden evaluation set, the system still made **30 incorrect intent predictions out of 200 examples (15%)**. Some of these mistakes occurred between closely related intents where the vocabulary overlaps.
+
+For example, the model frequently confused **Music Content requests with Feature Requests**. A message asking Spotify to add a specific song could be incorrectly interpreted as a request for a new product feature. Similarly, Feature Requests mentioning words such as *offline*, *downloaded*, *song*, or *music* could be classified into Downloads/Offline or Music Content instead.
+
+Second, the model's confidence can sometimes be misleading. Some incorrect predictions received relatively high confidence scores. For example, the request **“Please add Again-Bruno Mars”** was classified incorrectly with a confidence of approximately **99.7%**. This means confidence should not automatically be interpreted as correctness.
+
+Third, intent classification accuracy does not fully measure the quality of the complete support agent. A correct intent prediction does not guarantee that the retrieved historical reply is relevant or helpful. In the reply-quality evaluation, retrieval failures could produce responses that were only partially relevant or completely unrelated to the customer's problem.
+
+Finally, the evaluation dataset is relatively small, containing **200 hand-labelled examples**. While it provides a more realistic evaluation than relying only on the train-test split, it may not represent every possible type of Spotify customer message.
+
+Therefore, **95.52% accuracy should be treated as a useful model-performance indicator, not proof that the entire support agent is 95.52% reliable**. The end-to-end system should be evaluated using multiple measures, including intent accuracy, escalation decisions, reply relevance, failure analysis, and human review.
+
