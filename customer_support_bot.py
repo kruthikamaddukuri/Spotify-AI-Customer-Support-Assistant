@@ -1,76 +1,72 @@
 import joblib
+from escalation_policy import decide_action
+
 
 print("Loading Spotify AI Customer Support Model...")
 
+# Load Intent Classification Model
 model = joblib.load("models/spotify_intent_model.pkl")
 
-print("✅ Model loaded successfully!")
+# Load Reply Retrieval System
+retrieval_system = joblib.load(
+    "models/spotify_reply_retrieval.pkl"
+)
+
+vectorizer = retrieval_system["vectorizer"]
+message_vectors = retrieval_system["message_vectors"]
+df = retrieval_system["data"]
+
+print("✅ Intent model loaded successfully!")
+print("✅ Historical reply retrieval system loaded successfully!")
 
 
-# Responses for each customer issue
-responses = {
+# ============================================================
+# RETRIEVE SIMILAR HISTORICAL SPOTIFY RESPONSE
+# ============================================================
 
-    "Account_Security": """
-We understand that account security is very important.
+from sklearn.metrics.pairwise import cosine_similarity
 
-Please reset your password immediately and check whether your email address or account details have been changed. If you still notice unauthorized activity, contact Spotify Support for further assistance.
-""",
 
-    "App_Technical": """
-Sorry you're experiencing a technical issue.
+def get_similar_response(customer_message, predicted_intent):
 
-Please try restarting the Spotify app, updating it to the latest version, or reinstalling it. If the problem continues, please contact Spotify Support.
-""",
+    # Search only conversations with the predicted intent
+    intent_df = df[df["intent"] == predicted_intent]
 
-    "Downloads_Offline": """
-We understand you're having trouble with downloads or offline listening.
+    if len(intent_df) == 0:
+        return None, 0
 
-Please check your internet connection and make sure your Spotify app is updated. You can also try removing and downloading the content again.
-""",
+    indices = intent_df.index.tolist()
 
-    "Family_Student_Plan": """
-We can help with your Family or Student Premium plan.
+    # Convert customer message into TF-IDF vector
+    query_vector = vectorizer.transform([customer_message])
 
-Please check that your account details and eligibility requirements are correct. For Family plans, make sure all members meet the required plan conditions.
-""",
+    # Get vectors for matching intent
+    intent_vectors = message_vectors[indices]
 
-    "Feature_Request": """
-Thank you for sharing your suggestion!
+    # Calculate similarity
+    similarities = cosine_similarity(
+        query_vector,
+        intent_vectors
+    )[0]
 
-Your feedback is valuable and can help improve the Spotify experience. We recommend sharing the feature request with the appropriate Spotify feedback channel.
-""",
+    # Find best matching historical conversation
+    best_position = similarities.argmax()
 
-    "Login_Issue": """
-Sorry you're having trouble logging in.
+    best_similarity = similarities[best_position]
 
-Please verify your username and password. You can also try resetting your password or checking whether you're logging in using the correct method, such as email, Facebook, or another connected account.
-""",
+    best_index = indices[best_position]
 
-    "Music_Content": """
-We understand you're having an issue related to music or content availability.
+    historical_response = df.loc[
+        best_index,
+        "spotify_response_clean"
+    ]
 
-Some songs, albums, or artists may be unavailable because of licensing restrictions or regional availability.
-""",
+    return historical_response, float(best_similarity)
 
-    "Payment_Refund": """
-Sorry to hear about the payment issue.
 
-Please check your subscription and payment history. If you were charged incorrectly or multiple times, contact Spotify Support with your payment details so they can investigate the issue.
-""",
-
-    "Playback_Issue": """
-Sorry your music isn't playing properly.
-
-Please try restarting the app and checking your internet connection. You can also try logging out and back in or reinstalling the Spotify application.
-""",
-
-    "Premium_Subscription": """
-We understand you're experiencing an issue with your Premium subscription.
-
-Please check your subscription status and payment information. If your payment was successful but Premium isn't active, contact Spotify Support for assistance.
-"""
-}
-
+# ============================================================
+# SPOTIFY AI SUPPORT ASSISTANT
+# ============================================================
 
 print("\n" + "=" * 65)
 print("🎵🤖 SPOTIFY AI CUSTOMER SUPPORT ASSISTANT")
@@ -84,44 +80,78 @@ while True:
     message = input("👤 Customer: ")
 
     if message.lower() == "exit":
+
         print("\n🤖 Assistant: Thank you for using Spotify AI Support!")
         break
 
 
-    # Predict intent
-    prediction = model.predict([message])[0]
+    # ========================================================
+    # STEP 1: INTENT CLASSIFICATION
+    # ========================================================
 
+    predicted_intent = model.predict([message])[0]
 
-    # Get confidence score
     probabilities = model.predict_proba([message])[0]
 
-    confidence = max(probabilities) * 100
+    confidence = max(probabilities)
 
+
+    # ========================================================
+    # STEP 2: ESCALATION DECISION
+    # ========================================================
+
+    decision = decide_action(
+        predicted_intent,
+        confidence
+    )
+
+    action = decision["action"]
+
+    reason = decision["reason"]
+
+
+    # ========================================================
+    # STEP 3: RETRIEVE HISTORICAL RESPONSE
+    # ========================================================
+
+    historical_response, similarity = get_similar_response(
+        message,
+        predicted_intent
+    )
+
+
+    # ========================================================
+    # DISPLAY RESULTS
+    # ========================================================
 
     print("\n" + "-" * 65)
 
-    print("🔍 Detected Issue:", prediction)
+    print(f"🔍 Detected Intent: {predicted_intent}")
 
-    print(f"📊 AI Confidence: {confidence:.2f}%")
+    print(f"📊 AI Confidence: {confidence * 100:.2f}%")
 
-    print("\n🤖 Spotify AI Assistant:")
+    print(f"\n🚦 Decision: {action}")
+
+    print(f"\n💡 Reason: {reason}")
 
 
-    # Low confidence handling
-    if confidence < 40:
+    print("\n🤖 Suggested Spotify Support Reply:")
 
-        print("""
-I'm not completely sure what issue you're experiencing.
+    if historical_response is not None:
 
-Could you please provide more details about your problem so I can assist you better?
-""")
+        print(historical_response)
+
+        print(
+            f"\n📚 Historical similarity: "
+            f"{similarity * 100:.2f}%"
+        )
 
     else:
 
-        print(responses.get(
-            prediction,
-            "Sorry, I couldn't identify the issue clearly."
-        ))
+        print(
+            "Sorry, we couldn't find a sufficiently "
+            "relevant historical support response."
+        )
 
 
     print("-" * 65 + "\n")

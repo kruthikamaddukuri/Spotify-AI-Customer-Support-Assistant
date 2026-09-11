@@ -1,0 +1,4 @@
+Model,Accuracy,Correct_Predictions,Total_Examples
+Trivial Baseline,0.125,25,200
+Keyword Baseline,0.8,160,200
+ML Model,0.85,170,200

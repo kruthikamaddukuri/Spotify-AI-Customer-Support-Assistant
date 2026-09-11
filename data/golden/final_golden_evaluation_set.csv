@@ -1,0 +1,201 @@
+text,intent,expected_action
+. feature request: when playing a playlist or album have a position indicator maybe dots or a bar under album art thx luv u,Feature_Request,AUTO_HANDLE
+"ok 20 msgs, 10 customer serv reps, 6 weeks later, you still havent taken care of my hacked account nor successfully transfer my hacked account to my new account like you promised, includ. my Premium membership. You’d think you’d want to take my money at the very least",Account_Security,ESCALATE_TO_HUMAN
+hi! why isn't there a spotify app for Windows Surface 2? the web player doesn't work :( very disappointing :((,App_Technical,AUTO_HANDLE
+"I'm still waiting, I pay my m9nwy and no help from you guys, wth am I paying for???? I want a refund now!!!!!!!",Payment_Refund,ESCALATE_TO_HUMAN
+music. Only once I got an error that said i couldn't add a song to my queue. Now the option just doesn't exist (2/2,App_Technical,AUTO_HANDLE
+"I am having trouble logging in to my account. I can't login with FB, my email or anything. I have a premium account.",Login_Issue,AUTO_HANDLE
+"my family member got kicked off my plan, and we're getting errors when we type in our address to get him back on.Can you help?",Family_Student_Plan,AUTO_HANDLE
+fuck you and your piece of shit shuffle feature,Playback_Issue,AUTO_HANDLE
+why are entire albums that were just released on Spotify less than two weeks ago now suddenly saying they are unavailable? Same goes with others that have been on there for years that won't play now. Why even list them?,Playback_Issue,AUTO_HANDLE
+How is taking up so much room? I delete and redownload bi-weekly. I don't have any offline downloads either. ☹️ #1stWorldProblems,Downloads_Offline,AUTO_HANDLE
+"I have a premium account but I want the student discount, but I currently pay with iDeal, and when I want to activate the student deal, I have to fill in my info for a creditcard. Why and is there a way I can pay with iDeal like I am doing now? #Netherlands #Spotify",Family_Student_Plan,AUTO_HANDLE
+hi! I just paid for my premium student account but i am still on free??! please fix that. i didnt even got an email but the money is already charged from my bank account,Family_Student_Plan,AUTO_HANDLE
+"Either my mobile (android) or desktop (windows 10). It doesnt respond when i click them, if i try shuffle i get ""this song is not available""",Playback_Issue,AUTO_HANDLE
+help! Was exploring the family plan but then it was actually purchased!,Family_Student_Plan,AUTO_HANDLE
+I was charged for premium 3 days ago... It still shows I have a free account and dont have premium features... Please help. 🙏,Premium_Subscription,AUTO_HANDLE
+"Hey, . . . So, it's 2017, and you guys have THE killer music-streaming app . . . So tell me how I can truly randomize a 300-song shuffle on a 300-song playlist on my mobile device? Come on. Impress me. I fucking DARE you.",Playback_Issue,AUTO_HANDLE
+all my saved music has been deleted for the second time in 2 weeks. Why is this happening? Can’t listen offline.,Downloads_Offline,AUTO_HANDLE
+I'd like a refund,Payment_Refund,ESCALATE_TO_HUMAN
+Feature Request: Make it easy to separate singles from albums in new releases.,Feature_Request,AUTO_HANDLE
+"Hello, i signed up to an existing Family plan, but my account dont upgrade...",Family_Student_Plan,AUTO_HANDLE
+can you add a feature so I can block certain artists from my music feed? Like I never wanna hear the craptastic or ever again and ive been thumbing them down since signing up. #stopshittymusic,Feature_Request,AUTO_HANDLE
+Thanks. Did Webchat and they sorted it. I'd been hacked.,Account_Security,ESCALATE_TO_HUMAN
+Am I the only one that has been charged twice this month by Spotify?,Payment_Refund,ESCALATE_TO_HUMAN
+you should add a functionality: sort tracks by bpm. #asap,Feature_Request,AUTO_HANDLE
+"I paid for a premium family plan, all the other accounts are working but my account does not receive the premium features. My account username is sarimr_12. Please help with this issue.",Family_Student_Plan,AUTO_HANDLE
+is there a reason why you only accept Unidays and not for your student discount?,Family_Student_Plan,AUTO_HANDLE
+"feature request: bluetooth pair w/ treadmill, adjust treadmill speed to my current song's BPM so I can always run to the beat. Playlists automatically become curated workouts",Feature_Request,AUTO_HANDLE
+Hey i suscribed to Spotify Premium with the Student discount but i still don't have SpotifyPremium activated on my account,Family_Student_Plan,AUTO_HANDLE
+is there a way to know if I’m adding a duplicate song within a folder of music?,Music_Content,AUTO_HANDLE
+"What the hell, Canada?! I want to listen to some older albums at work, and it turns out a bunch of them are missing/unplayable! Users have confirmed they're available on Spotify USA. HE'S. CANADIAN. I'M. CANADIAN. Ugh, I hate this licensing crap.",Music_Content,AUTO_HANDLE
+hey someone else has been in my account but i changed the PW so np but i was already premium but not anymore whats going on?,Account_Security,ESCALATE_TO_HUMAN
+My account has been hacked and I'm locked out of both resetting my password and changing my email address. Any help you can offer?,Account_Security,ESCALATE_TO_HUMAN
+the app keeps deleting offline/saved songs off of my phone with no warning. I have plenty of space on it. Samsung S6 Edge.,Downloads_Offline,AUTO_HANDLE
+"I just got kicked off my family plan and can’t get back on it. Every time I put in the confirmation, “something went wrong”",Family_Student_Plan,AUTO_HANDLE
+have been charged twice $9.99 for a personal account when I want a family account for $14.99. Can you fix this...acct Cervelott,Payment_Refund,ESCALATE_TO_HUMAN
+Maintenance? We can't login. 🙁,Login_Issue,AUTO_HANDLE
+can y’all put Beyoncé’s lemonade album on Spotify already 🤦🏻‍♀️,Music_Content,AUTO_HANDLE
+Hey you should add music videos to your repertoire,Music_Content,AUTO_HANDLE
+shuffle is broken. on playlists the app will play 10-20 songs off the same two albums if possible then switches to two other albums. doesn’t feel random at all when a large playlist with dozens of albums only shuffles through 2 at a time.,Playback_Issue,AUTO_HANDLE
+"hey I wanted to cancel my subscription cause I can't afford it on my student budget, but instead y'all deactivated my account? I was hoping to start a family plan in January ;-;",Family_Student_Plan,AUTO_HANDLE
+Hulu says it cannot authorize my spotify account when trying to sign for the student premium deal. Need help,Family_Student_Plan,AUTO_HANDLE
+"have Premium for Family. Trying to set up daughter's profile, redeem code not working. Have resent invite twice. Please advise",Family_Student_Plan,AUTO_HANDLE
+Microsoft is promoting their Music Pass Costumers to Spotify but you're Mobile App is Crashing after 10Minutes of use and is not up-to-date.,App_Technical,AUTO_HANDLE
+"No, its just on pc that doesn't work. Reinstalled the app and cleared appdata folder, still not working",App_Technical,AUTO_HANDLE
+"Please add the ""explicit"" tag to the following song spotify:track:021txSheRym293iUdf6vPZ at 50 seconds in is the F word",Music_Content,AUTO_HANDLE
+My premium account just expired and I only realized this when I got hit with an advertisement. I didn't get any warnings either - maybe because I'm not the administrator of my family account?? That should likely be fixed.,Premium_Subscription,AUTO_HANDLE
+Hey why does your app crash when I press play on any of my music??,App_Technical,AUTO_HANDLE
+hi. My account appears to have been hacked. How do I resolve this issues?,Account_Security,ESCALATE_TO_HUMAN
+hey I paid for the £99 for a year subscription however when I go to my account settings it still says I am going to be charged £9.99 each month whats going on..? I don't want to pay twice!,Payment_Refund,ESCALATE_TO_HUMAN
+"dear could you PLEASE PLEASE add ""Independent"" by Uppermost to Spotify itself, thank you so much if you do that.",Music_Content,AUTO_HANDLE
+"Guys, I can't log in! The reset password page doesn't recognise my email, but says it is attached to an account",Login_Issue,AUTO_HANDLE
+when i push “shuffle” i actually want you to shuffle my songs. don’t act like you know me like that.,Playback_Issue,AUTO_HANDLE
+Hey it'd be awesome if my account would not get hacked twice in three days 🖕.,Account_Security,ESCALATE_TO_HUMAN
+When will Harry’s cover of The Chain be put on Spotify I’m tired of waiting,Music_Content,AUTO_HANDLE
+I am unable to log in on your website. Pretty much everything i click on throws an error saying to many redirects. I have tried multiple browsers and cleared the cookies on them still no luck.,Login_Issue,AUTO_HANDLE
+so I went to try out the student discount for Hulu but they charged me even thought I didn’t sign up for it after all what’s going on??,Payment_Refund,ESCALATE_TO_HUMAN
+I am still being charged on my visa card even after I have cancelled the subscription. Please give me refund.,Payment_Refund,ESCALATE_TO_HUMAN
+It would be great if you could block artists from radio.,Feature_Request,AUTO_HANDLE
+"Some albums won't play - it seems entirely random and I've tried on desktop and app, saving as well as downloading. It makes no sense.",Playback_Issue,AUTO_HANDLE
+"please add a ""delete cache"" button...just had to uninstall app to free space on my phone!",Feature_Request,AUTO_HANDLE
+"why is the web player not working?? Keeps stopping randomly and won't play, driving me crazy 😤😤",Playback_Issue,AUTO_HANDLE
+hey y'all can you please add tracks from blind guardian's nightfall on middle earth album to the might and myth: power metal playlist.,Music_Content,AUTO_HANDLE
+my app is not working,App_Technical,AUTO_HANDLE
+Have you been hacked? Yes or No?,Account_Security,ESCALATE_TO_HUMAN
+Hey my android version of the app randomly pauses on its own. Just thought I'd report the bug.,App_Technical,AUTO_HANDLE
+ill cant log in and when i try to chabge my password it says the code timed out,Login_Issue,AUTO_HANDLE
+"The only reason I pay for spotify is so I can listen to music offline, e.g. on the tube",Downloads_Offline,AUTO_HANDLE
+"my friend signed up for premium, deducted the $4.99 but she’s still on the free account, it won’t let her go premium",Premium_Subscription,AUTO_HANDLE
+Please add Again-Bruno Mars,Music_Content,AUTO_HANDLE
+I apologize for the confusion. I already have the web player downloaded. What I mean is there used to be add ons/apps within the app. One I recall was Pitchfork. I don't see them anymore. I'm trying to find ways to find music in other countries,Music_Content,AUTO_HANDLE
+help already storage location keeps changing and downloaded music is gone. No offline for me. Re-download every day?,Downloads_Offline,AUTO_HANDLE
+put the new wdw ep on spotify come on,Music_Content,AUTO_HANDLE
+"Hey why when I shuffle my whole library, do I only get stuff I’ve listened to recently? All filters off, etc.",Playback_Issue,AUTO_HANDLE
+"Just an idea. On their birthday, your premium users can legally downloaded songs from one of their playlist. Not offline download",Feature_Request,AUTO_HANDLE
+"Why I can't login to my spotify account? The username & password right, but keep back to login again after that",Login_Issue,AUTO_HANDLE
+"I created a Spotify account and have started paying for the premium package. However, I have forgotten my username and password and are unable to log in. I was wondering how I can cancel my payments? I can provide my bank details to possibly link it to my account",Login_Issue,AUTO_HANDLE
+"I switched to an Android recently, and everytime I use the app in tje background/another app it crashes! #helpme",App_Technical,AUTO_HANDLE
+put perfect velvet on spotify already I'm tired,Music_Content,AUTO_HANDLE
+we can't log in,Login_Issue,AUTO_HANDLE
+"can't login with my premium account on android system, says that experiencing problem",Login_Issue,AUTO_HANDLE
+"account hacked, cant log in, contact number please?",Account_Security,ESCALATE_TO_HUMAN
+"I’m a family plan member, how come when my wife is on it boots me off? It never used to.",Family_Student_Plan,AUTO_HANDLE
+And this is not set offline,Downloads_Offline,AUTO_HANDLE
+"got a new phone, premium subscription is not working. Need fix",Premium_Subscription,AUTO_HANDLE
+"hey i just paid for spotify premium but why my account still written ""free""",Premium_Subscription,AUTO_HANDLE
+add a feature where we can see our most played songs and artists pleeeasseeeeee,Feature_Request,AUTO_HANDLE
+"What's happening with your music in , ?? Your songs won't play anymore... 🙁",Playback_Issue,AUTO_HANDLE
+"Hey the app is crashing every time I try to share a playlist! Pixel, Android 8",App_Technical,AUTO_HANDLE
+I have a free account w/ a long account name given by Spotify. On this account I have created multiple playlists. I want to purchase premium but am unable to access this free account (error mentions CRFA?). How do I get a new account and keep my playlists/history?,Premium_Subscription,ESCALATE_TO_HUMAN
+why can't I activate the student discount?,Family_Student_Plan,AUTO_HANDLE
+- Yr App is killing my business. Keeps crashing/pple complaining/ music keeps stopping. Not happy😢😢😢,App_Technical,AUTO_HANDLE
+you charged me twice for a month's sub. you charged me student and regular. Please reverse the charges for the student sub. Not impressed.,Payment_Refund,ESCALATE_TO_HUMAN
+Sweet. I e-mailed The swedish support two weeks ago but they haven't answered. I keep getting logged out from my account and can't log in without reinstalling the app. This deletes all my downloaded playlists. What can I do?,Login_Issue,AUTO_HANDLE
+I am trying to sign up for a new account. ios app or web browser (safari&chrome) wont work. help!,App_Technical,AUTO_HANDLE
+my account (ccdap) has been hacked!,Account_Security,ESCALATE_TO_HUMAN
+"My premium account, suddenly turn in to a free account, I have paid but I just can't go back to premium! I think it is cause of my address",Premium_Subscription,AUTO_HANDLE
+Hey I wanted to cancel my premium account but you already charged me before I wanted to cancel can I get a refund,Payment_Refund,ESCALATE_TO_HUMAN
+"someone hacked my account and I've lost my playlists, can I retrieve them?",Account_Security,ESCALATE_TO_HUMAN
+the last version of Spotify on IPhone crashes often. It is getting annoying. When will there be an update with bug fixes?,App_Technical,AUTO_HANDLE
+. Can y’all consider adding a feature where i can type in song lyrics to find a song if i forget the name 🤔,Feature_Request,AUTO_HANDLE
+my account is being hacked. I want to delete this asap. Someone is creating playlists. Please help!,Account_Security,ESCALATE_TO_HUMAN
+"hi, I'm on the previous iOS to the latest. Just updated Spotify and now it won't open. Have restarted the phone and app with no luck. Is this a bug? Best to update to latest iOS?",App_Technical,AUTO_HANDLE
+got charged for premium but can’t listen to premium... can you please fix my problem I’m very sad.,Premium_Subscription,AUTO_HANDLE
+"my card was charged, but I still don't have premium",Premium_Subscription,AUTO_HANDLE
+"Hi , i can't login to my account, i want to reset my password and can't get the link on my email. Can you help me to check?",Login_Issue,AUTO_HANDLE
+stop charging me! Account cancelled months ago! How do I get a refund?,Payment_Refund,ESCALATE_TO_HUMAN
+HELP! My account has been hacked and now the email address has been changed so I can’t reset the password.,Account_Security,ESCALATE_TO_HUMAN
+"just received an email regarding my student premium membership, could you please check DMs? ☺️",Family_Student_Plan,AUTO_HANDLE
+"I don't have my facebook account linked to my spotify anymore, so now I can't log in. What can I do?",Login_Issue,AUTO_HANDLE
+Now I've been charged for Student twice. I'm not a student. Please contact me. Thanks! 🌊🌊🌊,Payment_Refund,ESCALATE_TO_HUMAN
+"I have a 2,000 song playlist on but I only hear about 30 of the same songs on shuffle.",Playback_Issue,AUTO_HANDLE
+Does anyone know how to contact ? Someone else is using my account even though I’ve repeatedly changed my password and email.,Account_Security,ESCALATE_TO_HUMAN
+i already paid in cash for my spotify premium but my account is still free.,Premium_Subscription,AUTO_HANDLE
+"Hi, I’ve just bought Spotify premium but I’ve received two receipts, does this mean I’ve been charged twice?",Payment_Refund,ESCALATE_TO_HUMAN
+"Naka globe postpaid ako, mag spotify premium sana ako yung nadadagdag lang sa bill ko. Pwede ba yung student discount don? 65 per month.",Family_Student_Plan,AUTO_HANDLE
+"your adds are more compressed, hasher and alot louder than the music. Sort that out ya nearly blew my ears out and nt near full vol",App_Technical,AUTO_HANDLE
+I can't remember my password/email I used on my phone and I made a premium account using my student discount. How do I recover it?,Login_Issue,AUTO_HANDLE
+Android app asks to log on but when I try it says I'm set to offline. Then gets stuck in a loop. 7gb of downloads I need to access!,Downloads_Offline,AUTO_HANDLE
+your shuffle algorithm sucks please stop this madness and just shuffle my dang songs,Playback_Issue,AUTO_HANDLE
+"your Mac based app is terrible, slow and constantly crashes. Latest updates have done nothing to improve it",App_Technical,AUTO_HANDLE
+it says not available in offline mode ... its never done this before,Downloads_Offline,AUTO_HANDLE
+I can't login to my Spotify acct thru the Groove app to move my music over. Checked the credentials on my phone too,Login_Issue,AUTO_HANDLE
+"hello , i signed up for student premium and it went thru but i was charged twice on my card",Payment_Refund,ESCALATE_TO_HUMAN
+Hi I've been charged twice this month can you look into it for me?,Payment_Refund,ESCALATE_TO_HUMAN
+"The app crashes everytime I try to share a song, then it restarts playing the previous song.",App_Technical,AUTO_HANDLE
+Hey the App doesn't work since las update on November 29 on Adroid #OnePlus5T,App_Technical,AUTO_HANDLE
+Just subscribed for premium. Paid. Still only free account.,Premium_Subscription,AUTO_HANDLE
+I’ve sorted it now and cancelled but I want a refund because I haven’t used the account for about a year!,Payment_Refund,ESCALATE_TO_HUMAN
+Please add last.fm support for remote devices. Really shouldn't be that hard to implement from the backend.,Feature_Request,AUTO_HANDLE
+pls help! Have paid for Premium sub via iTunes but app is not working. Have tried logging out/in & reinstalling to no avail :(,App_Technical,AUTO_HANDLE
+"That works. I just miss the functionality to select ""shuffle"" when first opening a playlist, the way it used to be.",Playback_Issue,AUTO_HANDLE
+i know im offline but how exactly am i supposed to connect online when i try to log in n ur msg keeps tellin me to connect online?,Login_Issue,AUTO_HANDLE
+Could you please add Apple Safari support for the Web Player?,Feature_Request,AUTO_HANDLE
+"hello, may I please get a refund? I cancelled your services and never meant for a premium subscription, thank you!",Payment_Refund,ESCALATE_TO_HUMAN
+"Hi, I can't login on android. App keeps telling me the device is offline. When I press""connect"", nothing happens. Please help",Login_Issue,AUTO_HANDLE
+"hi, do you happen to have any input on whether you'll put End Game (from Taylor Swift's reputation) on Spotify seperately from the album when it gets released as a single?",Music_Content,AUTO_HANDLE
+"someone else is using my account/changing music and I've tried everything to stop it, please help asap it's scary af",Account_Security,ESCALATE_TO_HUMAN
+I can't log in and your website requires me to be logged in to submit a query via your contact form.,Login_Issue,AUTO_HANDLE
+Is your service currently offline?,App_Technical,AUTO_HANDLE
+hey please add a #macOS notification for when a new song starts like what does,Feature_Request,AUTO_HANDLE
+my 2 week premium has expired and it won’t let me upgrade to premium again how can resolve this problem ?,Premium_Subscription,AUTO_HANDLE
+please fix ur bug which doesn't allow me to shuffle anything when on 4g 🙃,Playback_Issue,AUTO_HANDLE
+"Hey I submitted a subscription for your 3 months for $9.99 and the form said it didn't go through, but my bank says otherwise! I open spotify and still HAVE NO PREMIUM! What gives?!?",Premium_Subscription,AUTO_HANDLE
+"Hmm, that's the second time my android Spotify has forgotten half of the tracks I've downloaded for offline. What gives?",Downloads_Offline,AUTO_HANDLE
+"Please please please add Seo Taiji's Album ""Ultramania"" on spotify!!! did I say please?",Music_Content,AUTO_HANDLE
+what’s wrong with your app.. songs keep crashing and skipping #spotify,App_Technical,AUTO_HANDLE
+been hacked need some help,Account_Security,ESCALATE_TO_HUMAN
+accidentally refunded the payment&now I cant login on my spotify but I have payment transferred. Do I get my ac automatically🔙,Login_Issue,ESCALATE_TO_HUMAN
+mobile feature request - how about the possibility for folder creation on app just like full/web app. ^RJ,Feature_Request,AUTO_HANDLE
+"Could you please add newest album New Wave to the new release list. Not seeing it at all sadly, its a great album",Music_Content,AUTO_HANDLE
+Hey - is it possible to ACTUALLY shuffle music rather than just mix the 30/40 songs surrounding the one I selected?,Playback_Issue,AUTO_HANDLE
+hi I’m supposed to have premium account till next year but it’s not working.. help yo girl out please and thank you,Premium_Subscription,AUTO_HANDLE
+could you please add these 2 songs by Logic (5 AM — Man of the year) thank you,Music_Content,AUTO_HANDLE
+credit card hacked called you and reported Oct 23 still charging my card need support chatted w/ Mark R,Account_Security,ESCALATE_TO_HUMAN
+but I cannot recover my library. Please help. Don’t think I was hacked as password and email were not changed.,App_Technical,ESCALATE_TO_HUMAN
+"Hi, wondering if you can tell me why all my downloaded albums and playlists stop being available offline when I haven't listened for awhile? Thanks.",Downloads_Offline,AUTO_HANDLE
+and i have to restart the whole app then i press shuffle play it said you need premium to play the music,Playback_Issue,AUTO_HANDLE
+"Add the Benny Benassi remix of ""Pretty Girls"" by wale, weensey from backyard and gucci mane. Can't live without this song it's the most unforgettable song in Project X",Music_Content,AUTO_HANDLE
+why my hacked Spotify is doing this?,Account_Security,ESCALATE_TO_HUMAN
+Just purchased the premium family plan but can't invite family members. Why is this complicated?,Family_Student_Plan,AUTO_HANDLE
+"Hi there, I can't play none of Beck song for some reason. It works on my hubby's account. Why...?",Playback_Issue,AUTO_HANDLE
+downloaded the desktop EXE version of the app and it started downloading files to my phone immediately after I added my music in,App_Technical,AUTO_HANDLE
+"New to Can someone tell me how to turn OFF that ($!#/) shuffle play Play one song, remove the suggested songs. Ready 2 delete",Playback_Issue,AUTO_HANDLE
+Can i avail this on top of my premium subscription? Mine will expire on march 2018 i guess 😞,Premium_Subscription,AUTO_HANDLE
+I have a student premium acct. and for the past 2 months ive been charged full price and have not had access to hulu nor could i find a solution on the community forums/pages,Family_Student_Plan,AUTO_HANDLE
+make a setting where in Offline mode you only see downloaded albums. Saved albums are useless to me when im in offline mode!,Feature_Request,AUTO_HANDLE
+Can't log in and don't have time to navigate that nightmare of a help center to find a point of external communication WYA?,Login_Issue,AUTO_HANDLE
+. Please could you help? None of my music will play and it’s set to “offline” I listen to my music on the go all the time and have never had this problem. It’s just stopped becoming available. Has my music just...un-downloaded itself? 😞,Downloads_Offline,AUTO_HANDLE
+. why is my student subscription not working for Hulu?,Family_Student_Plan,AUTO_HANDLE
+it's 2017 why do I have a 3333 offline song limit on my spotify? Do you really want to get that 9.99 a month off me? Ps pls emulate their local files synching.,Downloads_Offline,AUTO_HANDLE
+"Streaming isn’t working, for ex. I can’t listen to any of the xx. And all my offline playlist disappeared.",Downloads_Offline,AUTO_HANDLE
+can you please add to your #WomenOfPop Playlist?,Music_Content,AUTO_HANDLE
+the app won't let me share links to songs? The app just crashes when I use the share option,App_Technical,AUTO_HANDLE
+where is your Apple Watch app. I really don't want to cancel and subscribe to Apple Music but need offline playlists on the watch.,Feature_Request,AUTO_HANDLE
+Hi - where might I find the ‘shuffle entire library’ button?,Playback_Issue,AUTO_HANDLE
+My premium account has become inactive sadly. It won't let me do anything. Go to a free account update or anything,Premium_Subscription,AUTO_HANDLE
+i still haven't heard reputation can they put it on spotify pls,Music_Content,AUTO_HANDLE
+can you please fix ur desktop app it keeps crashing,App_Technical,AUTO_HANDLE
+I was double charged for Spotify Premium. How do I fix this?,Payment_Refund,ESCALATE_TO_HUMAN
+"Am subscribed to Spotify premium, tried to play music today it says I only have a free account. No notification. Why?",Premium_Subscription,AUTO_HANDLE
+"My Spotify was hacked a short while ago. Now my BELOVED ""Discover Weekly"" is screwed and useless :-/ Can I get your help to reset it?",Account_Security,ESCALATE_TO_HUMAN
+swiping to queue rarely ever works in offline mode (been like this forever ),Downloads_Offline,AUTO_HANDLE
+I have been charged twice for the same month of premium,Payment_Refund,ESCALATE_TO_HUMAN
+yo you should add this song to your new music friday playlist 😉💛,Music_Content,AUTO_HANDLE
+"Hi I subscribed to premium but I can not use it, use the university account and they already charged me but I really wanted the normal premium account, which is what I have to do to recover my money and pay the normal premium.",Payment_Refund,ESCALATE_TO_HUMAN
+"hi! I live in Porto, Portugal, and I cant log in my account, it keeps saying that I'm in a diferent country, I don't know why",Login_Issue,AUTO_HANDLE
+Same. I wish Spotify had a calendar view of when new albums come out for artists you follow.,Feature_Request,AUTO_HANDLE
+"Online when I'm connected to the Internet, when I press connect it just doesn't respond so I can't log in. Thanks!",Login_Issue,AUTO_HANDLE
+you guys should add the Art of podcast to your library!! PLEASE!,Music_Content,AUTO_HANDLE
+"I am getting a message that my payment information failed, but I signed up for the family plan with my wife and my account...",Family_Student_Plan,AUTO_HANDLE
+"and BTW, you'll even benefit a lot if you'll put up GOT7's song on Spotify cause they have a bajillion of fans (called AHGASES) WORLDWIDE, so basically more ppl will tune in to Spotify cause of them. 💚 Just sayin' yknow 🤔😉 #GOT7onSpotify",Music_Content,AUTO_HANDLE
+upgraded my family to premium. But now everyone but me gets it. I’m signed in through Facebook and it’s not working,Family_Student_Plan,AUTO_HANDLE
+"none of those answers are appropriate, its a bug ive seen many complain about. so i just have to reinstall & re save every 2 months? cool.",App_Technical,AUTO_HANDLE
+upgraded to premium and it still says I have a free account. Fix?,Premium_Subscription,AUTO_HANDLE
+I have student premium and it won’t let me access Hulu. Talked to a Hulu rep and the issue seems to be on yalls end- help!,Family_Student_Plan,AUTO_HANDLE
+can't login for some reason. It let me reset my password to the same thing 3 times in a row. All login info was triple checked,Login_Issue,AUTO_HANDLE
+account was hacked and resolved but all my playlists are gone.,Account_Security,ESCALATE_TO_HUMAN
+Feature Request: ability to switch to a new playlist after the current song (instead of stopping it and switching immediately) on,Feature_Request,AUTO_HANDLE
+"Thanks for the reply, But is this saying can't shuffle at all now? lol I'm doing it on my current playlist.",Playback_Issue,AUTO_HANDLE
+"I got a new Phone, and now the app says I am aboard and can't log in anymore while I have never left the US. Please help!",Login_Issue,AUTO_HANDLE
