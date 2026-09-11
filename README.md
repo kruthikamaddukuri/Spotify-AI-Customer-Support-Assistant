@@ -554,3 +554,21 @@ I would evaluate the complete pipeline using realistic customer messages and mea
 
 Finally, I would package the pipeline into a cleaner command-line workflow, reduce intermediate files, and add automated tests so the complete system could be reproduced and evaluated more easily.
 
+## Decision Log
+
+The following decisions were made during the development of this project:
+
+1. **Chosen brand: Spotify**
+   I selected Spotify because the dataset contained enough customer-support conversations to build a meaningful intent classification and reply retrieval system across multiple types of customer issues.
+
+2. **Defined 10 intent categories**
+   Instead of creating too many highly specific classes, I grouped similar customer problems into 10 practical support intents. This created a balance between coverage and having enough training examples per category.
+
+3. **Used the Twitter customer-support dataset as the primary source**
+   The goal was to work with noisy, real-world customer conversations rather than a clean benchmark dataset.
+
+4. **Used TF-IDF for text representation**
+   TF-IDF was selected because it is lightweight, fast to train, interpretable, and provides a strong baseline for a relatively small text-classification problem.
+
+5. **Used Logistic Regression for intent classification**
+   Logistic Regression was chosen because it works well for sparse TF-IDF features and provides probability estimates that can be
