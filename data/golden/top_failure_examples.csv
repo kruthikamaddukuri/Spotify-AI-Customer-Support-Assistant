@@ -1,0 +1,16 @@
+failure_mode,expected_intent,predicted_intent,customer_message,confidence
+1,Music_Content,Feature_Request,"dear could you PLEASE PLEASE add ""Independent"" by Uppermost to Spotify itself, thank you so much if you do that.",0.7931
+1,Music_Content,Feature_Request,hey y'all can you please add tracks from blind guardian's nightfall on middle earth album to the might and myth: power metal playlist.,0.6226
+1,Music_Content,Feature_Request,Please add Again-Bruno Mars,0.9972
+2,Family_Student_Plan,Premium_Subscription,hi! I just paid for my premium student account but i am still on free??! please fix that. i didnt even got an email but the money is already charged from my bank account,0.5034
+2,Family_Student_Plan,Premium_Subscription,"have Premium for Family. Trying to set up daughter's profile, redeem code not working. Have resent invite twice. Please advise",0.4732
+2,Family_Student_Plan,Premium_Subscription,. why is my student subscription not working for Hulu?,0.6464
+3,Feature_Request,Music_Content,can you add a feature so I can block certain artists from my music feed? Like I never wanna hear the craptastic or ever again and ive been thumbing them down since signing up. #stopshittymusic,0.442
+3,Feature_Request,Music_Content,. Can y’all consider adding a feature where i can type in song lyrics to find a song if i forget the name 🤔,0.781
+3,Feature_Request,Music_Content,hey please add a #macOS notification for when a new song starts like what does,0.5839
+4,App_Technical,Music_Content,music. Only once I got an error that said i couldn't add a song to my queue. Now the option just doesn't exist (2/2,0.766
+4,App_Technical,Music_Content,"your adds are more compressed, hasher and alot louder than the music. Sort that out ya nearly blew my ears out and nt near full vol",0.456
+4,App_Technical,Music_Content,downloaded the desktop EXE version of the app and it started downloading files to my phone immediately after I added my music in,0.325
+5,Feature_Request,Downloads_Offline,"Just an idea. On their birthday, your premium users can legally downloaded songs from one of their playlist. Not offline download",0.7601
+5,Feature_Request,Downloads_Offline,make a setting where in Offline mode you only see downloaded albums. Saved albums are useless to me when im in offline mode!,0.9674
+5,Feature_Request,Downloads_Offline,where is your Apple Watch app. I really don't want to cancel and subscribe to Apple Music but need offline playlists on the watch.,0.5229
