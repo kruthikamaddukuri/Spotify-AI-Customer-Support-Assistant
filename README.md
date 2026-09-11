@@ -525,3 +525,32 @@ Finally, the evaluation dataset is relatively small, containing **200 hand-label
 
 Therefore, **95.52% accuracy should be treated as a useful model-performance indicator, not proof that the entire support agent is 95.52% reliable**. The end-to-end system should be evaluated using multiple measures, including intent accuracy, escalation decisions, reply relevance, failure analysis, and human review.
 
+
+## What I'd Do Next With One More Week
+
+With one additional week, I would focus on improving the reliability of the complete support agent rather than simply trying to increase the intent-classification accuracy.
+
+### 1. Improve Intent Classification
+
+The failure analysis shows that the TF-IDF + Logistic Regression model struggles when different intents share similar vocabulary. I would experiment with sentence embeddings or transformer-based models to better capture the meaning and context of customer messages.
+
+### 2. Improve Retrieval Quality
+
+The current system retrieves historical replies based primarily on message similarity. I would introduce intent-aware retrieval, where replies are retrieved only from examples with the same predicted intent. This could reduce irrelevant responses caused by retrieving messages from different issue categories.
+
+### 3. Improve Escalation Decisions
+
+I would evaluate the escalation policy separately using more difficult and ambiguous examples. The policy could combine model confidence, intent ambiguity, message risk, and retrieval similarity instead of relying on a single signal.
+
+### 4. Collect More Human Evaluations
+
+I would expand the human evaluation sample and have multiple independent reviewers label the same examples. This would provide a more reliable measurement of reply quality and allow stronger evaluation of agreement between human reviewers and the LLM judge.
+
+### 5. Add Better End-to-End Evaluation
+
+I would evaluate the complete pipeline using realistic customer messages and measure whether the final action was correct: correct intent, appropriate escalation decision, and useful response. This would provide a more meaningful measure of agent reliability than intent accuracy alone.
+
+### 6. Improve Reproducibility and Usability
+
+Finally, I would package the pipeline into a cleaner command-line workflow, reduce intermediate files, and add automated tests so the complete system could be reproduced and evaluated more easily.
+
