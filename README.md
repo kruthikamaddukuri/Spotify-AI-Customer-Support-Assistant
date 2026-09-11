@@ -5,6 +5,67 @@ An AI-powered customer support system that uses Natural Language Processing (NLP
 The system analyzes a customer's message, identifies the underlying support intent, measures prediction confidence, decides whether the issue can be automatically handled or should be escalated to a human agent, and retrieves a relevant historical support response.
 
 ---
+## ⚡ Quick Start — Reproduce the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/kruthikamaddukuri/Spotify-AI-Customer-Support-Assistant.git
+cd Spotify-AI-Customer-Support-Assistant
+```
+
+### 2. Create and Activate a Virtual Environment
+
+**Windows PowerShell:**
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate
+```
+
+### 3. Install Dependencies
+
+```powershell
+pip install -r requirements.txt
+```
+
+### 4. Run the AI Customer Support Assistant
+
+```powershell
+python customer_support_bot.py
+```
+
+Example message:
+
+```text
+I paid for Spotify Premium but my account still shows Free.
+```
+
+The system will:
+
+1. Classify the customer's intent.
+2. Calculate the model confidence.
+3. Decide whether to auto-handle or escalate.
+4. Retrieve a historically grounded Spotify support reply.
+5. Display the retrieval similarity score.
+
+### 5. Reproduce the Evaluation Results
+
+Run the following commands:
+
+```powershell
+python evaluate_golden_set.py
+python evaluate_baselines.py
+python evaluate_reply_quality.py
+python evaluate_reply_rubric.py
+python test_escalation.py
+```
+
+### Expected Headline Results
+
+The exact numbers may vary slightly depending on the evaluation setup and model artifacts, but the repository includes the saved evaluation outputs used for the report.
+
+* **Intent Cla**
 
 ## 📌 Project Overview
 
